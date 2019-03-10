@@ -3,12 +3,12 @@ import BroadcastChannel, { BroadcastChannelOptions } from 'broadcast-channel';
 
 type Config = {
   channel: string;
-  broadcastChannelOptions: BroadcastChannelOptions;
+  broadcastChannelOptions: BroadcastChannelOptions | undefined;
 }
 
 const defaultConfig = {
   channel: 'shared_state',
-  broadcastChannelOptions: null,
+  broadcastChannelOptions: undefined,
 };
 
 const useShareState = <State>(initialState: State, config: Config = defaultConfig): [State, Function] => {
