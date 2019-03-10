@@ -5,14 +5,13 @@
   "main": "build/index.js",
   "author": "Muslim Guseinov <gusejnov1999@list.ru>",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gus3inov/use-share-state.git"
   },
-  "bugs": "https://github.com/gus3inov/use-share-state/issues",
+  "bugs": {
+    "url": "https://github.com/gus3inov/use-share-state/issues"
+  },
   "keywords": [
     "react",
     "hook",
@@ -52,13 +51,7 @@
     "react-test-renderer": "^16.8.4",
     "typescript": "^3.3.3333"
   },
-  "ava": {
-    "require": [
-      "./test-setup.js"
-    ]
-  },
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "broadcast-channel": "^2.1.9"
   }
 }
