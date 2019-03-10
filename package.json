@@ -2,7 +2,7 @@
   "name": "use-share-state",
   "version": "1.0.0",
   "description": "React hook for share state between tabs/windows",
-  "main": "build/index.js",
+  "main": "lib/index.js",
   "author": "Muslim Guseinov <gusejnov1999@list.ru>",
   "license": "MIT",
   "repository": {
@@ -29,6 +29,8 @@
     "README.md"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
+    "postpublish": "npm run clean",
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "tsc"
