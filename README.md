@@ -2,6 +2,8 @@
 
 React hook for state synchronization between (windows, tabs).
 
+This hook is based on a [broadcast-channel](https://github.com/pubkey/broadcast-channel) library that works in New Browsers, Old Browsers, WebWorkers and NodeJs.
+
 ## Installation
 
 ```bash
