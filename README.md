@@ -7,15 +7,15 @@ This hook is based on a [broadcast-channel](https://github.com/pubkey/broadcast-
 ## Installation
 
 ```bash
-$ npm install use-shared-state
+$ npm install use-share-state
 ```
 ## Usage
 
 ```js
-import useSharedState from "use-shared-state";
+import useShareState from "use-share-state";
 
 const App = () => {
-  const [state, setState] = useSharedState(0);
+  const [state, setState] = useShareState(0);
 
   const increment = useCallback(() => {
     setState(state + 1);

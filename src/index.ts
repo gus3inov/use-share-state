@@ -11,7 +11,7 @@ const defaultConfig = {
   broadcastChannelOptions: null,
 };
 
-const useSharedState = <State>(initialState: State, config: Config = defaultConfig): [State, Function] => {
+const useShareState = <State>(initialState: State, config: Config = defaultConfig): [State, Function] => {
   const channel: BroadcastChannel<State> = new BroadcastChannel(config.channel, config.broadcastChannelOptions);
   const [state, setState] = useState<State>(initialState);
 
@@ -31,4 +31,4 @@ const useSharedState = <State>(initialState: State, config: Config = defaultConf
   return [state, postMessage];
 }
 
-export default useSharedState;
+export default useShareState;
