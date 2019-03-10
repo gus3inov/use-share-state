@@ -35,10 +35,6 @@ const App = () => {
 }
 ```
 
-## Api
-
-
-
 ## License
 
 MIT © [Muslim Guseinov](https://github.com/gus3inov)
