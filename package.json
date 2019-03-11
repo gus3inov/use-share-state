@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "author": "Muslim Guseinov <gusejnov1999@list.ru>",
   "license": "MIT",
+  "homepage": "https://github.com/gus3inov/use-share-state",
   "repository": {
     "type": "git",
     "url": "https://github.com/gus3inov/use-share-state.git"
