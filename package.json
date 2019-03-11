@@ -23,7 +23,7 @@
     "shared-state"
   ],
   "files": [
-    "build",
+    "lib",
     "src",
     "LICENSE",
     "README.md"
