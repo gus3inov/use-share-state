@@ -30,7 +30,6 @@
   ],
   "scripts": {
     "prepublishOnly": "npm run build",
-    "postpublish": "npm run clean",
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "build": "tsc"
