@@ -1,9 +1,8 @@
 import React, { useCallback } from 'react';
-import useSharedState from './useSharedState';
-import './App.css';
+import useShareState from 'use-share-state';
 
 const App = () => {
-  const [state, setState] = useSharedState(0);
+  const [state, setState] = useShareState(0);
 
   const increment = useCallback(() => {
     setState(state + 1);
